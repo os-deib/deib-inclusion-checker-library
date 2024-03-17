@@ -1,12 +1,32 @@
-[
-  {
-    phrase: 'foo',
-    alternatives: ['a', 'b', 'c']
-    explanation: 'bar'
-  },
-  {
-    phrase: 'baz',
-    alternatives: ['e']
-    explanation: 'oof'
-  }
+[ 
+	{
+		"phrase": "abnormal",
+		"alternatives": ["unusual", "uncommon"],
+		"explanation": "Can be appropriate in a medical context, but when describing an individual it is widely considered derogatory."
+	},
+	{
+		"phrase": "alcoholic",
+		"alternatives": ["someone with an alchohol problem", "someone with a drinking problem"],
+		"explanation": "Use people-first language such as someone with an alcohol problem."
+	},
+	{
+		"phrase": "both sexes",
+		"alternatives": ["all sexes"],
+		"explanation": "Binary, as if there are only two ways. Erases intersex, non-binary, and transgender people."
+	},
+	{
+		"phrase": "Chinaman",
+		"alternatives": [],
+		"explanation": "Racial slur; do not use."
+	},
+	{
+		"phrase": "Congressman",
+		"alternatives": ["Congressperson"],
+		"explanation": "Masculine language and the gender binary does not include everyone."
+	},
+	{
+		"phrase": "ghetto",
+		"alternatives": [],
+		"explanation": "Avoid due to negative connotations."
+	}
 ]
