@@ -1,32 +1,1834 @@
-[ 
-	{
-		"phrase": "abnormal",
-		"alternatives": ["unusual", "uncommon"],
-		"explanation": "Can be appropriate in a medical context, but when describing an individual it is widely considered derogatory."
-	},
-	{
-		"phrase": "alcoholic",
-		"alternatives": ["someone with an alchohol problem", "someone with a drinking problem"],
-		"explanation": "Use people-first language such as someone with an alcohol problem."
-	},
-	{
-		"phrase": "both sexes",
-		"alternatives": ["all sexes"],
-		"explanation": "Binary, as if there are only two ways. Erases intersex, non-binary, and transgender people."
-	},
-	{
-		"phrase": "Chinaman",
-		"alternatives": [],
-		"explanation": "Racial slur; do not use."
-	},
-	{
-		"phrase": "Congressman",
-		"alternatives": ["Congressperson"],
-		"explanation": "Masculine language and the gender binary does not include everyone."
-	},
-	{
-		"phrase": "ghetto",
-		"alternatives": [],
-		"explanation": "Avoid due to negative connotations."
-	}
+[
+    {
+        "phrase": "a blind eye",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid idioms that cast a negative connotation on people’s various physical abilities",
+        "source": "<a href=https://advancementproject.org/resources/the-social-justice-phrase-guide/\" target=\"_blank\">Social Justice Phrase Guide</a>\""
+    },
+    {
+        "phrase": "a deaf ear",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid idioms that cast a negative connotation on people’s various physical abilities",
+        "source": "<a href=https://advancementproject.org/resources/the-social-justice-phrase-guide/\" target=\"_blank\">Social Justice Phrase Guide</a>\""
+    },
+    {
+        "phrase": "A.D.",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["C.E."],
+        "explanation": "When referring to dates, change to Common Era instead, which is non-Christian-centered.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/a-d/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "able-bodied",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["non-disabled", "enabled"],
+        "explanation": "Suggests that people with disabilities lack “able bodies” or the ability to use their bodies well.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/able-bodied/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "abnormal",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["atypical"],
+        "explanation": "Can be appropriate in a medical context, but when describing an individual it is widely considered derogatory.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/abnormalabnormality/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "abnormality",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["atypical"],
+        "explanation": "Can be appropriate in a medical context, but when describing an individual it is widely considered derogatory.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/abnormalabnormality/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "abusive relationships",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["a Relationship with an abusive person"],
+        "explanation": "It is important to name that someone is doing this. Relationships don’t perpetrate abuse; abusers do.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "act gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "act straight",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "acted gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "acted straight",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "acting gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "acting straight",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "AD",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["C.E."],
+        "explanation": "When referring to dates, change to Common Era instead, which is non-Christian-centered.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/a-d/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "addict",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with addiction"],
+        "explanation": "Using person-first language here can mitigate the implication that their addiction is a defining quality.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "afflicted with",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["diagnosed with"],
+        "explanation": "Don’t make assumptions about how people with mental illnesses or other conditions are handling their life.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/victim-suffering-from-afflicted-with-stricken-with/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "African American",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["consider context"],
+        "explanation": "Black and African American are less interchangeable — some Black Americans may not identify with African culture. Use with caution.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/african-american-african-american-black-2/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Afro American",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Outdated phrase, do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/afro-american-2/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Afro-American",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Outdated phrase, do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/afro-american-2/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "alcoholic",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with alcoholism"],
+        "explanation": "Use people-first language such as someone with an alcohol problem.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/alcoholic-alcoholism/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "alien",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["noncitizen"],
+        "explanation": "A creature from outer space, not an immigrant.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/alien/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "anchor baby",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "The term is pejorative; avoid except in quotations.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/anchor-baby-anchor-child/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "anchor child",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "The term is pejorative; avoid except in quotations.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/anchor-baby-anchor-child/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "appear gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "appeared gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "appearing gay",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "appearing straight",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Visually judging the personal gender identity of an individual is deceptive and can be hurtful.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/acting-appearing-gay-straight/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Asiatic",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["Asian"],
+        "explanation": "A vestige of European colonialism and imperialism.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/asiatic/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "autistic person",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with autism"],
+        "explanation": "Use people-first language.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/autismautism-spectrum-disorders/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "B.C.",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["B.C.E."],
+        "explanation": "When referring to dates, change to Before Common Era instead, which is non-Christian-centered.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/a-d/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "BC",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["B.C.E."],
+        "explanation": "When referring to dates, change to Before Common Era instead, which is non-Christian-centered.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/a-d/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "beat a dead horse",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["refuse to let something go"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "beating a dead horse",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["refuse to let something go"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "beating a dead horse",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["refuse to let something go"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "biologic female",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": null
+    },
+    {
+        "phrase": "biologic gender",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": null
+    },
+    {
+        "phrase": "biologic male",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "biological female",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": null
+    },
+    {
+        "phrase": "biological gender",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": null
+    },
+    {
+        "phrase": "biological male",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cisgender"],
+        "explanation": "Instead of biological male, man, female, or woman, cisgender suggests that gender is a personal construct (because it is).",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "birth defect",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person born with a disability"],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "blackhat",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["unethical", "malicious", "criminal"],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "blacklist",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["deny list", "block list"],
+        "explanation": "basic access control mechanism",
+        "source": null
+    },
+    {
+        "phrase": "blind leading the blind",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid idioms that cast a negative connotation on people’s various physical abilities",
+        "source": "<a href=https://advancementproject.org/resources/the-social-justice-phrase-guide/\" target=\"_blank\">Social Justice Phrase Guide</a>\""
+    },
+    {
+        "phrase": "born a boy",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned as boy"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "born a girl",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned as girl"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "born a man",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned as man"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "born a woman",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned as woman"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "born female",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned female"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "born male",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["assigned male"],
+        "explanation": "Gender is assigned at birth and may not reflect the way that person actually feels.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "both genders",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["all genders"],
+        "explanation": "Binary, as if there are only two ways. Erases intersex, non-binary, and transgender people.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "both sexes",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["all sexes"],
+        "explanation": "Binary, as if there are only two ways. Erases intersex, non-binary, and transgender people.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "child prostitute",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["sexually abused child"],
+        "explanation": "A child can not consent, therefore, they can not be a sex worker.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Chinaman",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/chinaman/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "chink",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use. Avoid phrases such as “chink in the armor” despite its original non-racial connotation.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/chink/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "codger",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Ageist terminology",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/codger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "colored",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["color"],
+        "explanation": "Archaic term. Do not use unless referring to official names, historical events, or in quotes.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/colored/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "coloured",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["colour"],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "commits suicide",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["died by suicide"],
+        "explanation": "Use non-stigmatizing language.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/suicide/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "committed suicide",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["died by suicide"],
+        "explanation": "Use non-stigmatizing language.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/suicide/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "confined to a wheelchair",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person in a wheelchair"],
+        "explanation": "The term is misleading, as wheelchairs can liberate the people who require them.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/wheelchairwheelchair-boundconfined-to-a-wheelchair/\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "Congressman",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Congressperson"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Congressmen",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Congresspeople"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "convict",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["incarcerated person", "imprisoned people", "people in prison", "people in jail"],
+        "explanation": "Use people-first language.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/convict/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "cretin",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["intellectually underdeveloped"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "cripple",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["prevent", "slow down", "person born with a disability"],
+        "explanation": "This is an ableist word that tends to be used with a negative connotation describing the disability.",
+        "source": null
+    },
+    {
+        "phrase": "defect person",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "If referring to a person, don’t imply they are deficient or inferior.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/defect-birth-defect/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "deranged",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "disabled people",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with a disability"],
+        "explanation": "Are they defined by their disability?",
+        "source": null
+    },
+    {
+        "phrase": "disabled person",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with a disability"],
+        "explanation": "Are they defined by their disability?",
+        "source": null
+    },
+    {
+        "phrase": "dressed as a man",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid using as a judgment that assumes a subject’s gender identity.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/dressed-as/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "dressed as a woman",
+        "state": "warning (red)",
+        "suggested_action": null,
+        "alternatives": [],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "ebonics",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "The National Association of Black Journalists Style Guide advises to avoid its use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/ebonics/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Eeny meeny miny moe",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Rock, paper, scissors"],
+        "explanation": "Many versions of this rhyme use a racial slur and allude to capturing enslaved people who had escaped.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Eeny, meeny, miny, moe",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Rock, paper, scissors"],
+        "explanation": "Many versions of this rhyme use a racial slur and allude to capturing enslaved people who had escaped.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Eskimo",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Inuit"],
+        "explanation": "The term is controversial and should be used with caution.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/eskimo/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "exotic",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "The term is “othering” (suggesting non-North American or non-white) and should be avoided. Do not describe a person this way.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/exotic/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "fag",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Extremely offensive when used as an epithet.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/fag-faggot/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "faggot",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Extremely offensive when used as an epithet.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/fag-faggot/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "fat people",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person who is overweight"],
+        "explanation": "Generally considered insulting and derogatory.",
+        "source": null
+    },
+    {
+        "phrase": "fat person",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person who is overweight"],
+        "explanation": "Generally considered insulting and derogatory.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/obese-obesity/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "felon",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person convicted of a felony"],
+        "explanation": "Avoid labelling and dehumanizing people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/felon-offender/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "First World",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["country"],
+        "explanation": "According to definitions, “developed countries” or “developing world” are more accurate.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/first-world/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Flip",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Offensive if referring to a Filipino person.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/flip/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Freshman",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["First year student"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Freshmen",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["First year students"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "gay families",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["family"],
+        "explanation": "Unneccesary to identify the sexual orientation of parents.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/family/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "geezer",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Ageist and possibly offensive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/geezer/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "ghetto",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid due to negative connotations.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/ghetto-inner-city/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "gimp",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Derogatory towards those with physical or mobility disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "gimpy",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Derogatory towards those with physical or mobility disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "going to commit suicide",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["die by suicide"],
+        "explanation": "Are you yourself saying this? There is help.",
+        "source": "Call 988 or visit <a href=https://988lifeline.org\" target=\"_blank\">988lifeline.org</a>\""
+    },
+    {
+        "phrase": "grandfather clause",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["legacy clause"],
+        "explanation": "Use with caution. oOriginated in the American South to enfranchise poor White people and disenfranchise Black people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/grandfather-in-grandfather-clause/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "grandfathered in",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["legacied in"],
+        "explanation": "Use with caution. oOriginated in the American South to enfranchise poor White people and disenfranchise Black people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/grandfather-in-grandfather-clause/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "guru",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["expert"],
+        "explanation": "In tech job descriptions, these words can be perceived as more masculine and therefore discourage some groups from applying. These words also don’t identify exactly what qualities and qualifications are being sought.",
+        "source": null
+    },
+    {
+        "phrase": "guys",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["y’all", "people", "folks"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "gyp",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["trick"],
+        "explanation": "Likely derived from “Gypsy” and a negative stereotype of Roma people as swindlers and thieves.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/gypsy-gypsy-gipsy/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "gypped",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["tricked"],
+        "explanation": "Likely derived from “Gypsy” and a negative stereotype of Roma people as swindlers and thieves.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/gypsy-gypsy-gipsy/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "gypsy",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Roma people"],
+        "explanation": "Avoid casual use, many Roma people see it as a racial slur.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/gypsy-gypsy-gipsy/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "handicapped",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with a disability"],
+        "explanation": "Avoid describing a person this way, use their specific condition.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/handicapped/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "handicapped parking",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["accessible parking"],
+        "explanation": "Not all people who need reserved parking consider themselves “handicapped.”",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/handicapped/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "harelip",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["cleft lip"],
+        "explanation": "Not the preferred term by those with cleft-lip palate or similar facial deformities/cosmetic disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "hermaphrodite",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["intersex"],
+        "explanation": "Derogatory term for intersex individuals.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/hermaphrodite/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "homo",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Offensive term for homosexual.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/homo/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "hysteria",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Sexist and discriminatory and no longer a recognized psychiatric disorder",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/hysteria/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "identifies as",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["is"],
+        "explanation": "Are you questioning a trans person’s self-identity?",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/identify-as-identifies-a/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "idiot",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "idiotic",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "illegal alien",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["undocumented person"],
+        "explanation": "Avoid. The term is not an accurate description of U.S. status, but demeans an individual.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/illegal-alien/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "illegal immigrant",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["undocumented immigrant"],
+        "explanation": "Avoid. The term is not an accurate description of U.S. status, but demeans an individual.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/illegal-immigrant/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "imbecile",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "Indian giver",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["rescind"],
+        "explanation": "Avoid this idiom with roots in misunderstandings about trade customs between Indigenous people and white settlers.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "inner city",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["under-resourced", "low-income"],
+        "explanation": "A euphemism for lower-income residential districts with judgemental or racial undertones.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/inner-city/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "insane",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["mental disorder"],
+        "explanation": "Considered offensive and non-clinical or inaccurate.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/insane-incompetent/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "insane asylum",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["psychiatric hospital"],
+        "explanation": "The term has largely gone out of use as objectionable and inaccurate.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/insane-asylummental-health-hospitalpsychiatric-hospital/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "is adopted",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["was adopted"],
+        "explanation": "Adoption is one of many events in a person’s past, not an immutable personal trait.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/adoption/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Jap",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/jap-2/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "jewed",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Very offensive. Never use an ethnic identity as a verb.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/jew/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "jimmies",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["chocolate sprinkles"],
+        "explanation": "Difficult to prove or disprove, but many think “jimmies” are a racist reference to “Jim Crow” laws.",
+        "source": "<a href=https://www.snopes.com/fact-check/jimmies-etymology/\" target=\"_blank\">Etymology at Snopes.com</a>\""
+    },
+    {
+        "phrase": "kill myself",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["I’m really upset", "I’m so overwhelmed"],
+        "explanation": "When said as a joke, it minimizes people who struggle with these thoughts.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a> If you need help"
+    },
+    {
+        "phrase": "kill themselves",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Violent at best and megalomaniacal at worst. Wishing death upon others is a sign that you lack repect for human life.",
+        "source": null
+    },
+    {
+        "phrase": "kill two birds with one stone",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["two things at once"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "killing it",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Great job!"],
+        "explanation": "If someone is doing well, there are other ways to say so without equating it to murder.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "killing two birds with one stone",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["two things at once"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "ladies and gentlemen",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["friends", "audience members"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "ladies, and gentlemen",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["friends", "audience members"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "lame person",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Avoid using lame to describe a person with a disability",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/lame/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "loony",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["wild", "confusing", "unpredictable"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "low hanging fruit",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["easy to reach"],
+        "explanation": "It is under debate whether this phrase directly references lynchings, but it is insensitive and potentially retraumatizing to some.",
+        "source": "<a href=http://www.theinclusionsolution.me/words-and-phrases-that-sting-black-marble-and-low-hanging-fruit/\" target=\"_blank\">The Inclusion Solution</a>\""
+    },
+    {
+        "phrase": "lunatic",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "madhouse",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["wild", "confusing", "unpredictable"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "madman",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "maniac",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["wild", "confusing", "unpredictable"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "midget",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["short stature"],
+        "explanation": "Outdated term for a person with dwarfism, now widely considered derogatory.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/dwarf-little-person-midget-short-stature/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "minority",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["underrepresented group", "people of color: marginalized group"],
+        "explanation": "Scrap the term because of its diminutive connotation. Use “people first” terminology instead and be more spcific than “people of color” if relevant.",
+        "source": "<a href=https://advancementproject.org/resources/the-social-justice-phrase-guide/\" target=\"_blank\">Social Justice Phrase Guide</a>\""
+    },
+    {
+        "phrase": "mixed people",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["diverse group"],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "Mongoloid",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "A highly derogatory way to describe someone.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/mongoloid/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Moonie",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "A derogatory term for a member of the Unification Church.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/moonie/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "moron",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "Moslem",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Muslim"],
+        "explanation": "An outdated term for Muslims.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/moslem/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Moslems",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Muslims"],
+        "explanation": "An outdated term for Muslims.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/moslem/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "mulatto",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["biracial"],
+        "explanation": "Considered to be racially insensitive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/mulatto/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "negress",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["African American", "black"],
+        "explanation": "This term is only acceptable in organization names and historical references.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/negro/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "negro",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["African American", "black"],
+        "explanation": "This term is only acceptable in organization names and historical references.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/negro/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "nigga",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Highly offensive racial slur when used by non-BIPOC people to describe black people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/nigger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "niggardly",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["stingy", "miserly"],
+        "explanation": "Perceived as insulting because it sounds like an offensive word.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/niggardly/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "nigger",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Highly offensive racial slur when used by non-BIPOC people to describe black people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/nigger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "non-consensual sex",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["rape"],
+        "explanation": "It is important to name rape and not to soften it.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "normal behavior",
+        "state": "warning (red)",
+        "suggested_action": null,
+        "alternatives": [],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "normal behaviour",
+        "state": "warning (red)",
+        "suggested_action": null,
+        "alternatives": [],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "normal kid",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["typical"],
+        "explanation": "There’s bias inherent in using one group as a standard against which others are judged. Use of the word normal as a comparison group can stigmatize people who are different and imply they are abnormal.",
+        "source": null
+    },
+    {
+        "phrase": "normal people",
+        "state": "warning (red)",
+        "suggested_action": null,
+        "alternatives": [],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "normal person",
+        "state": "warning (red)",
+        "suggested_action": null,
+        "alternatives": [],
+        "explanation": null,
+        "source": null
+    },
+    {
+        "phrase": "nuthouse",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["a home or hospital for people with mental illnesses"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "nuts",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "on the totem pole",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "This idiom inaccurately trivializes the tradition and meaning of totem poles, which do not have a hierarchy of carvings based on physical position.",
+        "source": "<a href=https://advancementproject.org/resources/the-social-justice-phrase-guide/\" target=\"_blank\">Social Justice Phrase Guide</a>\""
+    },
+    {
+        "phrase": "Open a kimono",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["reveal inside information"],
+        "explanation": "This expression is rooted in sexism and exoticism.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/cultural-appropriative-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Open the kimono",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["reveal inside information"],
+        "explanation": "This expression is rooted in sexism and exoticism.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/cultural-appropriative-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "opposite sex",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["different sex"],
+        "explanation": "Gender is a spectrum, and opposite suggests it is binary.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/different-sex/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Oriental",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Used to describe things, not people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/oriental/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Paki",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["people of Pakistani origin"],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/paki/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Patel hotel",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["hotel"],
+        "explanation": "Derogatory phrase referring to people of Indian origin.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/patel-motel/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Patel motel",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["motel"],
+        "explanation": "Derogatory phrase referring to people of Indian origin.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/patel-motel/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "peanut gallery",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["audience"],
+        "explanation": "Referring to the cheapest seats at a show, it has historically been used as a derogatory term about Black people.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Polack",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["people of Polish origin"],
+        "explanation": "Derogatory term; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/polock-polack/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Policeman",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Police officer"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Policemen",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Police officers"],
+        "explanation": "Masculine language and the gender binary does not include everyone.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Polock",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["people of Polish origin"],
+        "explanation": "Derogatory term; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/polock-polack/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "pow wow",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["quick chat"],
+        "explanation": "Use only when referring to the title of an American Indian event. Avoid if referring to a general gathering.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/powwow/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "powwow",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["quick talk"],
+        "explanation": "Use only when referring to the title of an American Indian event. Avoid if referring to a general gathering.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/powwow/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "preferred pronouns",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["pronouns"],
+        "explanation": "Preferred implies that these pronouns are wanted, but optional.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "primitive",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["consider context"],
+        "explanation": "Avoid using this potentially insulting term to describe people.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/primitive/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "prostitute",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["sex worker"],
+        "explanation": "Prostitute is increasingly considered derogatory.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "psycho",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "redneck",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/redneck/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "redskin",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/redskin/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "retard",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with a mental disability"],
+        "explanation": "Once a common term that is now outdated and offensive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/mentally-retarded-mentally-disabled-intellectually-disabled-developmentally-disabled/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "retardation",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["mentally disabled"],
+        "explanation": "Once a common term that is now outdated and offensive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/mentally-retarded-mentally-disabled-intellectually-disabled-developmentally-disabled/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "retarded",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person with a mental disability"],
+        "explanation": "Once a common term that is now outdated and offensive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/mentally-retarded-mentally-disabled-intellectually-disabled-developmentally-disabled/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "rule of thumb",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["general rule"],
+        "explanation": "While difficult to prove, this phrase has violent connotations.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "Sambo",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/sambo/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "sand sucker",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/sandsucker/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "sandsucker",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/sandsucker/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "schizo",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "sex change",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["gender transition", "sex reassignment"],
+        "explanation": "Avoid this antiquated term.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/sex-change/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "short bus",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "short-bus",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "simpleton",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["intellectually underdeveloped"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "skin a cat",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["accomplish a task"],
+        "explanation": "This term normalizes violence against animals.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "slave",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["enslaved person"],
+        "explanation": "This status was imposed upon the person, rather than being an inherent identity.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "sold down the river",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["separated"],
+        "explanation": "Avoid this idiom that refers to enslaved people who were sold as punishment.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/identity-based-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "spastic",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Acceptable to refer to someone as having spastic cerebral palsy, but derogatory to refer to someone as spastic.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/cerebral-palsy/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "spaz",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Acceptable to refer to someone as having spastic cerebral palsy, but derogatory to refer to someone as a spaz.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/cerebral-palsy/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "special needs",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["functional needs"],
+        "explanation": "The word “special” in relationship to those with disabilities is now widely considered offensive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/specialspecial-needsfunctional-needs/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "special rights",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["LGBT rights", "equal rights", "gay and lesbian rights"],
+        "explanation": "Politically charged term used by opponents of civil rights for the LGBT community.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/special-rights/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "spirit animal",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Kindred spirit", "reason for living", "muse", "guide"],
+        "explanation": "Co-opting Native American spirituality and potentially offensive",
+        "source": "<a href=https://www.housing.wisc.edu/2022/10/inclusive-language-series-indigenous-terms/\" target=\"_blank\">University of Madison Inclusive Language Series</a>\""
+    },
+    {
+        "phrase": "starving in Africa",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["be grateful for what you have because others have less"],
+        "explanation": "This expression is othering and perpetuates the stereotype that non-Western countries cannot feed their people.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "starving in China",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["be grateful for what you have because others have less"],
+        "explanation": "This expression is othering and perpetuates the stereotype that non-Western countries cannot feed their people.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/language-that-doesnt-say-what-we-mean?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "stupid",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["uninformed", "reckless", "impulsive", "ignorant"],
+        "explanation": "Derogatory term for people with intellectual disabilities.",
+        "source": "<a href=https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html\" target=\"_blank\">Autistic Hoya blog post</a>\""
+    },
+    {
+        "phrase": "suffering from",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["diagnosed with"],
+        "explanation": "Don’t make assumptions about how people with mental illnesses or other conditions are handling their life.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/victim-suffering-from-afflicted-with-stricken-with/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "suffers from",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["diagnosed with"],
+        "explanation": "Don’t make assumptions about how people with mental illnesses or other conditions are handling their life.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/victim-suffering-from-afflicted-with-stricken-with/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "take a shot",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["give it a try"],
+        "explanation": "Violent and can raise traumatic memories with readers.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "take a stab",
+        "state": "suggestion (yellow)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["give it a try"],
+        "explanation": "Violent and can raise traumatic memories with readers.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "the homeless",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["people/person who is homeless", "unhoused people/person"],
+        "explanation": "Use person-first language.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/homeless-homelessness/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "the opposite gender",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["other genders"],
+        "explanation": "“Other” suggests a binary, as if there are only two ways.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "the opposite sex",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["other sexes"],
+        "explanation": "“Other” suggests a binary, as if there are only two ways.",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "Third World",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["countries"],
+        "explanation": "Casts inhabitants as uncivilized or primitive.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/third-world/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "totem pole",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Co-opting Native American spirituality and potentially offensive",
+        "source": "<a href=https://www.housing.wisc.edu/2022/10/inclusive-language-series-indigenous-terms/\" target=\"_blank\">University of Madison Inclusive Language Series</a>\""
+    },
+    {
+        "phrase": "towel head",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/towelhead/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "towelhead",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/towelhead/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "tranny",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Offensive when used as an epithet.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/tranny/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "trigger warning",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["content note"],
+        "explanation": "Do not use in a flippant or pejorative way — “trigger” can have violent associations.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/trigger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Uncle Tom",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "A racially charged term of contempt when applied to Black individuals.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/uncle-tom/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Voo doo",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["consider context"],
+        "explanation": "Avoid generic uses such as “voodoo economics” as it can considered offensive to those that practice the religion.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/vodou-voodoo/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Voodoo",
+        "state": "suggestion (yellow)",
+        "suggested_action": "rephrase",
+        "alternatives": ["consider context"],
+        "explanation": "Avoid generic uses such as “voodoo economics” as it can considered offensive to those that practice the religion.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/vodou-voodoo/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "wacko",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "Washington Redskins",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["Washington Commanders"],
+        "explanation": "In 2021, this NFL team changed its name.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/redskins-nfl-team/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "went by",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Is this phrase preceeding someone’s “dead name,” the name somone used before they changed it?",
+        "source": "<a href=https://www.theodysseyonline.com/ways-language-transgender-nonbinary-inclusive\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "whacko",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["person living with a mental illness"],
+        "explanation": "Derogatory language that contributes to the negative attitudes about mental illness that keep people from seeking treatment.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/crazycrazed-psycho-nuts-lunatic-deranged-wacko/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "wheelchair bound",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["person in a wheelchair"],
+        "explanation": "The term is misleading, as wheelchairs can liberate the people who require them.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/wheelchairwheelchair-boundconfined-to-a-wheelchair/\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "wheelchair-bound",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": ["person in a wheelchair"],
+        "explanation": "The term is misleading, as wheelchairs can liberate the people who require them.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/wheelchairwheelchair-boundconfined-to-a-wheelchair/\" target=\"_blank\">7 Ways to Make Your Language More Transgender and Nonbinary Inclusive</a>"
+    },
+    {
+        "phrase": "whigger",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": [],
+        "explanation": "A derogatory term for a White person who “acts Black.”",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/wigger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "whipped into shape",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["organized", "put into order"],
+        "explanation": "This term can evoke imagery of enslavement and torture.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "white trash",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["underprivileged people"],
+        "explanation": "Demeans multiple groups: white people and people of color, poor people and people who “act” like poor people, rural folks and religious folks, and anyone without a college degree.",
+        "source": "<a href=https://www.npr.org/sections/codeswitch/2018/08/01/605084163/why-its-still-ok-to-trash-poor-white-people\" target=\"_blank\"></a>\""
+    },
+    {
+        "phrase": "wife beater",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["white tanktop"],
+        "explanation": "This term trivializes relationship violence.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "wife-beater",
+        "state": "warning (red)",
+        "suggested_action": "rephrase",
+        "alternatives": ["white tanktop"],
+        "explanation": "This term trivializes relationship violence.",
+        "source": "<a href=https://sites.google.com/brandeis.edu/parcsuggestedlanguagelist/categories/violent-language?authuser=0\" target=\"_blank\">Suggested Language List from Brandeis University</a>\""
+    },
+    {
+        "phrase": "wigger",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "A derogatory term for a White person who “acts Black.”",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/wigger/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "yellow journalism",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Archaic and possibly anti-Semitic.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/yellow-journalism/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    },
+    {
+        "phrase": "yellow peril",
+        "state": "warning (red)",
+        "suggested_action": "remove/rephrase",
+        "alternatives": [],
+        "explanation": "Racial slur; do not use.",
+        "source": "<a href=https://www.diversitystyleguide.com/glossary/yellow-peril/\" target=\"_blank\">The Diversity Style Guide</a>\""
+    }
 ]
