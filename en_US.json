@@ -1,0 +1,12 @@
+[
+  {
+    phrase: 'foo',
+    alternatives: ['a', 'b', 'c']
+    explanation: 'bar'
+  },
+  {
+    phrase: 'baz',
+    alternatives: ['e']
+    explanation: 'oof'
+  }
+]
